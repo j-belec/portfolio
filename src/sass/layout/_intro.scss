@@ -1,0 +1,115 @@
+.intro {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.65),
+      rgba(245, 245, 245, 0.65)
+    ),
+    url("../../Assets/portfolio-bg.jpg");
+  background-size: cover;
+
+  &__title {
+    font-size: 5.8rem;
+    letter-spacing: 0.3rem;
+    animation: slide-left 1s;
+
+    margin-bottom: 2rem;
+  }
+
+  &__p {
+    font-size: 2.6rem;
+    width: 80rem;
+    animation: slide-right 1s;
+
+    margin-bottom: 2rem;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 5rem;
+    animation: slide-left 1s;
+
+    margin-bottom: 2rem;
+  }
+
+  &__icon-a {
+    color: #333;
+    fill: #333;
+    padding: 0.8rem;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #cceaf4;
+    }
+  }
+
+  &__icon {
+    height: 3.4rem;
+  }
+
+  &__btn {
+    font-size: 2.2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 1.4rem 5rem;
+    animation: slide-right 1s;
+    transition: all 0.5s;
+    position: relative;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &::before {
+      content: "Descargar CV";
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background-color: $color-main;
+      border-radius: 5px;
+      transition: all 0.3s;
+    }
+    &:hover::before {
+      opacity: 0;
+      transform: scale(0.5, 0.5);
+    }
+    &::after {
+      content: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' height='25'><path d='M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z' fill='white'/></svg>");
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // color: black;
+      // fill: black;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      opacity: 0;
+      transition: all 0.3s;
+      // border: 3px solid $color-main;
+      background-color: $color-main;
+      border-radius: 5px;
+      transform: scale(0.5, 0.5);
+    }
+    &:hover::after {
+      opacity: 1;
+      transform: scale(1, 1);
+    }
+  }
+}

@@ -1,0 +1,45 @@
+// INTRO
+@keyframes slide-right {
+  0% {
+    opacity: 0;
+    transform: translateX(15rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-15rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+// ABOUT ME
+@keyframes slider-top {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc((-16rem * 7) - 2rem * 7));
+  }
+}
+
+@keyframes slider-bottom {
+  0% {
+    transform: translateX(calc((-16rem * 8) - 2rem * 8));
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

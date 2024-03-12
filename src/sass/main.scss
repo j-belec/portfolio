@@ -1,0 +1,16 @@
+@import "./abstracts/functions";
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+@import "./base/animations";
+@import "./base/base";
+@import "./base/typography";
+
+// @import "layout/";
+@import "./layout/intro";
+@import "./layout/header";
+@import "./layout/aboutme";
+@import "./layout/proyectsAndExperience";
+@import "./layout/peCard";
+@import "./layout/contact";
+@import "./layout/footer";

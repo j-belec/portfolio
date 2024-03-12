@@ -1,0 +1,35 @@
+.footer {
+  background-color: #181818;
+  color: white;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+
+  &__title {
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+  }
+
+  &__subtitle {
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 3rem;
+  }
+
+  &__icon-a {
+    color: white;
+    border-radius: 5px;
+    fill: white;
+  }
+
+  &__icon {
+    height: 3rem;
+  }
+}

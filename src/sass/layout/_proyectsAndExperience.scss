@@ -1,0 +1,27 @@
+.pe {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  scroll-margin-top: 4.5rem;
+
+  &__proyects {
+    margin-bottom: 5rem;
+
+    &-container {
+      display: flex;
+      gap: 5rem;
+    }
+  }
+
+  &__experience {
+    margin-bottom: 5rem;
+
+    &-container {
+      display: flex;
+      gap: 5rem;
+    }
+  }
+}

@@ -1,0 +1,71 @@
+.contact {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.65),
+      rgba(245, 245, 245, 0.65)
+    ),
+    url("../../Assets/portfolio-bg.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 80rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 2rem;
+
+    padding: 4rem;
+  }
+
+  &__label {
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+  }
+
+  &__input {
+    font-size: inherit;
+    font-weight: 500;
+    color: #666;
+    width: 80%;
+    height: 4rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ededed;
+
+    padding: 0.8rem;
+    margin-bottom: 2rem;
+  }
+
+  &__textarea {
+    width: 80%;
+    height: 20rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ededed;
+    margin-bottom: 4rem;
+  }
+
+  &__btn {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: $color-main;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 1.4rem 6rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
