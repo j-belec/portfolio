@@ -13,6 +13,10 @@
     line-height: 1.6;
 
     margin-bottom: 5rem;
+
+    @media (max-width: 1024px) {
+      width: 85%;
+    }
   }
 
   &__slider {
@@ -21,6 +25,10 @@
     display: flex;
     overflow: hidden;
     margin-bottom: 4rem;
+
+    @media (max-width: 1024px) {
+      width: 85%;
+    }
 
     &::after,
     &::before {

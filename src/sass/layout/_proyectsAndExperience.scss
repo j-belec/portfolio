@@ -7,12 +7,39 @@
   text-align: center;
   scroll-margin-top: 4.5rem;
 
+  @media (max-width: 500px) {
+    scroll-margin-top: 0;
+  }
+
+  @media (max-width: 1024px) {
+    height: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  // @media (max-width: 1024px) {
+  //   height: auto;
+  // }
+
   &__proyects {
     margin-bottom: 5rem;
 
     &-container {
       display: flex;
+      align-items: center;
+      justify-content: center;
       gap: 5rem;
+
+      @media (max-width: 1024px) {
+        gap: 2rem;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+      }
+
+      @media (max-width: 850px) {
+        flex-wrap: wrap;
+        gap: 3rem;
+      }
     }
   }
 
@@ -21,7 +48,20 @@
 
     &-container {
       display: flex;
+      align-items: center;
+      justify-content: center;
       gap: 5rem;
+
+      @media (max-width: 1024px) {
+        gap: 2rem;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+      }
+
+      @media (max-width: 850px) {
+        flex-wrap: wrap;
+        gap: 3rem;
+      }
     }
   }
 }
