@@ -1,9 +1,10 @@
-import Intro from "./Components/Intro";
 import Header from "./Components/Header";
+import Intro from "./Components/Intro";
 import AboutMe from "./Components/AboutMe";
 import ProyectsAndExperience from "./Components/ProyectsAndExperience";
-import Footer from "./Components/Footer";
 import Contact from "./Components/Contact";
+import ScrollUpBtn from "./Components/ScrollUpBtn";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutMe />
       <ProyectsAndExperience />
       <Contact />
+      <ScrollUpBtn />
       <Footer />
     </div>
   );

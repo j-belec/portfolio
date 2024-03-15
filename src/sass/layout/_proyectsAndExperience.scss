@@ -1,21 +1,17 @@
 .pe {
-  height: 100vh;
+  height: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  scroll-margin-top: 4.5rem;
+  scroll-margin-top: 4rem;
 
-  @media (max-width: 500px) {
-    scroll-margin-top: 0rem;
-  }
-
-  @media (max-width: 1024px) {
-    height: auto;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
+  // @media (max-width: 500px) {
+  //   scroll-margin-top: 0rem;
+  // }
 
   &__proyects {
     margin-bottom: 5rem;
