@@ -3,7 +3,7 @@ import Header from "./Components/Header";
 import AboutMe from "./Components/AboutMe";
 import ProyectsAndExperience from "./Components/ProyectsAndExperience";
 import Footer from "./Components/Footer";
-// import Contact from "./Components/Contact";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Intro />
       <AboutMe />
       <ProyectsAndExperience />
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
     </div>
   );

@@ -6,6 +6,12 @@
   justify-content: center;
   background-color: #fafafa;
 
+  @media (max-height: 800px) {
+    height: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   &__text {
     width: 80rem;
     font-size: 2.4rem;
