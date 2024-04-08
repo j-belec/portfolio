@@ -19,9 +19,9 @@ function ProyectsAndExperience() {
           <PECard
             img="pe-tst.jpg"
             title="Typing Speed Test"
-            txt="Página web elaborada para  poner en práctica mis conocimientos. Las tecnologías usadas fueron JS, Express, SASS, MySQL y EJS "
+            txt="Página web elaborada para  poner en práctica mis conocimientos. Las tecnologías usadas fueron JS, Express, SASS, MySQL y EJS. (La página puede tardar hasta 50s en cargar). "
             linkGit="https://github.com/j-belec/typing-test"
-            linkPage="https://typing-speed-test.fly.dev/"
+            linkPage="https://typing-speed-test-aysp.onrender.com/"
           />
         </div>
       </div>
