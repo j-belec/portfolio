@@ -21,6 +21,7 @@
       align-items: center;
       justify-content: center;
       gap: 5rem;
+      flex-wrap: wrap;
 
       @media (max-width: 1024px) {
         gap: 2rem;

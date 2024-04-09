@@ -23,6 +23,13 @@ function ProyectsAndExperience() {
             linkGit="https://github.com/j-belec/typing-test"
             linkPage="https://typing-speed-test-aysp.onrender.com/"
           />
+          <PECard
+            img="pe-dh.jpg"
+            title="Proyecto Digital House"
+            txt="Página web elaborada como proyecto final de Digital House. Tiene el CRUD completo, login y register de usurios. (La página puede tardar hasta 50s en cargar)."
+            linkGit="https://github.com/j-belec/ProyectoIntDH"
+            linkPage="https://strong-step.onrender.com/"
+          />
         </div>
       </div>
       <div className="pe__experience">
